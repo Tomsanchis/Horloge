@@ -12,8 +12,8 @@ const minutebottom2 = document.querySelector(".minutebottom2");
 const minutetop = document.querySelector(".minutetop");
 const minutetop2 = document.querySelector(".minutetop2");
 
-let minutes = 0;
-let secondes = 5;
+let minutes = 24;
+let secondes = 60;
 
 function sr() {
   if (secondes > 0) {
