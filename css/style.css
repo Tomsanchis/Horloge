@@ -29,8 +29,7 @@ body {
 .minutebottom2,
 .hourbottom2 {
   padding: 50px;
-  border: solid 3px rgb(174, 0, 255);
-  border-top: none;
+  border: solid #111;
 }
 
 .hourtop,
@@ -38,8 +37,7 @@ body {
 .minutetop2,
 .hourtop2 {
   padding: 50px;
-  border: solid 3px rgb(174, 0, 255);
-  border-bottom: none;
+  border: solid #111;
 }
 
 .time {
@@ -49,11 +47,27 @@ body {
   align-items: center;
 }
 
-.top,
-.bottom {
+.huit {
   margin: 15px;
 }
 
 .point {
   font-size: 5rem;
+}
+
+.haut{
+  padding: 50px;
+  border-top-color: rgb(174, 0, 255);
+} 
+.bas{
+  padding: 50px;
+  border-bottom-color: rgb(174, 0, 255);
+}
+.gauche{
+  padding: 50px;
+  border-left-color: rgb(174, 0, 255);
+}
+.droite{
+  padding: 50px;
+  border-right-color: rgb(174, 0, 255);
 }
