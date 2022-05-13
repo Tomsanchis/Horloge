@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  font-family: "alarm";
   margin: 0 auto;
   background-color: rgb(0, 0, 0);
   color: rgb(174, 0, 255);
@@ -27,11 +26,7 @@ body {
 .hourbottom,
 .minutebottom,
 .minutebottom2,
-.hourbottom2 {
-  padding: 50px;
-  border: solid #111;
-}
-
+.hourbottom2,
 .hourtop,
 .minutetop,
 .minutetop2,
